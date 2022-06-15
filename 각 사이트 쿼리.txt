@@ -1,0 +1,32 @@
+구글 : url + search?q= + 검색어
+띄어쓰기는 + 
+
+깃허브: https://github.com/ + search?1=+검색어
+띄어쓰기는 + 
+
+daum: 띄어쓰기는 + 
+
+나무위키: https://namu.wiki/Go?q= + 검색어
+띄어쓰기는 %20
+
+위키 백과:
+https://ko.wikipedia.org/wiki/
+https://ko.wikipedia.org/wiki/{검색어}
+띄어쓰기는 _로 표시
+
+구글 번역기:
+https://translate.google.co.kr/?hl=ko&tab=TT
+한글-> 영어 : https://translate.google.co.kr/?hl=ko&sl=auto&tl=en&text={검색어}&op=translate
+영어-> 한글 : https://translate.google.co.kr/?hl=ko&sl=en%tl=ko&text={검색어}&op = translate
+띄어쓰기는 %20로 표시
+
+네이버 번역기(파파고):
+https://papago.naver.com/
+한글->영어 : https://papago.naver.com/?sk=auto&tk=en&st={검색어}
+영어->한글 : https://papago.naver.com/?sk=auto&tk=ko&hn=0&st={검색어}
+띄어쓰기는 %20
+
+유튜브: 
+https://www.youtube.com/
+https://www.youtube.com/results?search_query={검색어}
+띄어쓰기는 + 로 표시
