@@ -73,9 +73,8 @@ class App extends Component{
     }
     return (
       <div className="App">
-        {this.state.mention}
-        <Subject onSubmit={function(_query){
-          this.setState({mode:'searching',query:_query,mention:'이제 원하는 곳에 들어가 보세요!'});
+        <Subject ment={this.state.mention} onSubmit={function(_query){
+          this.setState({mode:'searching',query:_query,mention:'이제 원하는 사이트에 들어가 보세요!'});
         }.bind(this)}></Subject>
         <Frame data={this.state.portal} urldata={urlpattern}></Frame>
       </div>
