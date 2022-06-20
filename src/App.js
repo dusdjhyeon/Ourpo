@@ -17,7 +17,7 @@ class App extends Component{
       {id:4, title:'Youtube', url:"https://www.youtube.com/"},
       {id:5, title:'Github',url:"https://github.com/"},
       {id:6, title:'op.gg', url:"https://www.op.gg/"},
-      {id:7, title:'위키백과', url:"https://ko.wikipedia.org/wiki/"},
+      {id:7, title:'위키백과', url:"https://www.wikipedia.org/"},
       {id:8, title:'구글 번역기',url:"https://translate.google.co.kr/"},
       {id:9, title:'파파고',url:"https://papago.naver.com/"}, 
     ]
@@ -49,7 +49,7 @@ class App extends Component{
         } else if(id===6){
           urlpattern[k]=urll+'summoners/kr/'+this.state.query;
         } else if(id===7){
-          urlpattern[k]=urll+this.state.query;
+          urlpattern[k]="https://ko.wikipedia.org/wiki/"+this.state.query;
         } else{
           if(check_eng.test(this.state.query)){
             if(id===8){//google번역기

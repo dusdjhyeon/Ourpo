@@ -9,7 +9,7 @@ class Frame extends Component{
       var i=0;
 
       while(i<data.length){
-        var urlimg = "portal/" + data[i].title + ".png";
+        var urlimg = data[i].url + "favicon.ico";
         lists.push(<li style={{float:"left",marginRight:"39px"}} key={data[i].id}>
           <a href={urlpattern[i]}><img style={{paddingTop:"50px",height:"77px",width:"77px"}} src={urlimg}></img>
           <br></br>{data[i].title}</a>
